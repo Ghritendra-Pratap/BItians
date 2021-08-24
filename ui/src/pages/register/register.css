@@ -1,0 +1,83 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerWrapper{
+    width:70%;
+    height: 90%;
+    display: flex;
+}
+
+.registerLeft, .registerRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registerLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(44, 90, 175);
+    margin-bottom: 10px 0;
+}
+
+.registerDesc{
+    font-size: 24px;
+}
+
+.registerBox{
+    height: 420px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registerInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+.registerInput:focus{
+    outline: none;
+
+}
+
+.registerButton{
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color:rgb(44, 90, 175) ;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.loginAccount{
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 210px;
+    border: none;
+    background-color:rgb(41, 165, 41);
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
